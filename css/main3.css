@@ -1,0 +1,164 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* */
+.app-header{
+	background: url("../img/fondo.jpg") no-repeat center top fixed;
+	font-family: "Avenir", Futura, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-bottom: 80px;
+}
+.app-navbar{
+	background: rgba(0,0,0,0.4);
+	border-radius: 0;
+}
+.app-link{
+	color: white;
+	text-shadow:none;
+	width: 150px;
+}
+.app-link:hover{
+	color: white;
+}
+.app-nav>li>a{
+	color: #fff54b;
+	text-shadow:none;
+}
+.app-nav>li>a:hover{
+	color: white;
+	background-color: black;
+}
+.app-icon{
+	background: white;
+}
+.color1 {
+	height: 250px;
+	background-color: #b10000;
+}
+.color2 {
+	height: 50px;
+	background-color: black;
+}
+h1{
+	font-family: FuturaStdMediumCondensed, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	color: #F3F2F1;
+	font-size: 18px;
+	font-weight: bold;	
+	letter-spacing: 0;
+	text-indent: 3px;
+	line-height: 1.5em;
+
+}
+p{
+	font-family: FuturaStdMediumCondensed, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	color:#F3F2F1;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 0.8em;
+	letter-spacing: 0;
+
+}
+.right {
+	border-right: dotted #6E6E6E;
+	border-bottom: dotted #6E6E6E;
+	border-width: 1px;
+}
+.centrar {
+	margin-left: 20%;
+}
+.app-icon1{
+	background-color: #919191;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+
+.app-seccion1{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.app-titulo{
+	text-align: center;
+	color: #b10000;
+	font-size: 2.8em;
+	margin-bottom: 35px;
+	
+}
+.app-titulo1{
+	text-align: center;
+	color: #b10000;
+	font-size: 2.8em;
+	margin-bottom: 35px;
+	margin-top: -50px;
+}
+
+
+
+.app-descripcion{
+	text-align: center;
+	color: #fff54b;
+	font-size: 1em;
+	margin-bottom: 100px;
+	
+	padding: 15px 25px 25px 25px;
+	background: rgba(0,0,0,0.6);
+
+}
+.app-input{
+	height: 50px;
+	margin-top: 10px;
+}
+.app-formulario1{
+	width: 100%;
+	margin: 0 auto;
+}
+.app-formulario2{
+	padding: 15px 25px 25px 25px;
+	background: rgba(0,0,0,0.6);
+}
+.app-boton{
+	margin-top: 10px;
+	height: 50px;
+	background: #0080d6;
+	color: white;
+}
+.app-boton:hover{
+	color: white;
+}
+
+
+
+
+@media (max-width: 780px){
+	.app{
+		width: 90%;
+	}
+	.app-titulo{
+		font-size: 1.8em;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.app-titulo1{
+		font-size: 1.8em;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.app-descripcion{
+		font-size: 0.8em;
+		margin-bottom: 50px;
+	}
+	.centrar {
+	margin-left: 40%;
+	width: 90%;
+	}
+}
+/*.derecha{
+	height: 10px;
+}*/
